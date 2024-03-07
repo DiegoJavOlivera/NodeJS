@@ -1,0 +1,18 @@
+{
+  "name": "proyectonode",
+  "version": "0.0.1",
+  "description": "Proyecto node para curso",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+    
+  },
+  "author": "Diego Javier Olivera",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "save-dev": "^0.0.1-security"
+  }
+}
